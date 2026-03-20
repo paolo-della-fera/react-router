@@ -16,6 +16,21 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/* img */}
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-4 mt-2">
+                            <img src="https://picsum.photos/300/200" alt="" className="img-fluid w-100" />
+                        </div>
+                        <div className="col-12 col-md-4 mt-2">
+                            <img src="https://picsum.photos/300/200" alt="" className="img-fluid w-100" />
+                        </div>
+                        <div className="col-12 col-md-4 mt-2">
+                            <img src="https://picsum.photos/300/200" alt="" className="img-fluid w-100" />
+                        </div>
+                    </div>
+                </div>
+
             </main>
 
         </>
