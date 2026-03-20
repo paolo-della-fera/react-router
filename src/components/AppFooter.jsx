@@ -4,7 +4,7 @@ export default function AppFooter() {
 
 
     return (
-        <footer className="bg-body-tertiary mt-5 py-5">
+        <footer className="mt-5 py-5">
             <div className="container">
                 <div className="row">
 

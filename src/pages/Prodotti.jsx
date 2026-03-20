@@ -8,7 +8,7 @@ export default function Prodotti() {
         fetch('https://fakestoreapi.com/products')
             .then(res => res.json())
             .then(data => setProdotti(data))
-    })
+    }, [])
 
     return (
         <>
@@ -27,12 +27,12 @@ export default function Prodotti() {
                                 <div className="card h-100">
                                     <img src={prodotto.image} className="card-img-top p-2" alt={prodotto.title} />
                                     <div className="card-body">
-                                        <span className="badge bg-secondary mb-2 text-uppercase">
+                                        <span className="badge mb-2 text-uppercase">
                                             {prodotto.category}
                                         </span>
                                         <h5 className="card-title">{prodotto.title}</h5>
                                         <p className="card-text text-muted">{prodotto.description}</p>
-                                        <p className="fw-bold fs-5">${prodotto.price}</p>
+                                        <p className="fw-bold fs-4 text-success">${prodotto.price}</p>
                                     </div>
                                 </div>
                             </div>

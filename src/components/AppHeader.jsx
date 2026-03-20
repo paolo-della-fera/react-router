@@ -24,7 +24,7 @@ export default function AppHeader() {
     return (
         <header>
 
-            <nav className="navbar bg-body-tertiary">
+            <nav className="navbar">
                 <div className="container-fluid justify-content-center">
                     <ul className="navbar-nav flex-row gap-3">
 
