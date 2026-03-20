@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 /* navbar */
 const menu = [
@@ -31,9 +31,9 @@ export default function AppHeader() {
                         {
                         menu.map(item =>
                             <li className="nav-item" key={item.id}>
-                                <Link className="nav-link" to={item.path}>
+                                <NavLink className="nav-link" to={item.path}>
                                     {item.text}
-                                </Link>
+                                </NavLink>
                             </li>
                         )
                         }
