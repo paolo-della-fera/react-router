@@ -34,6 +34,12 @@ header nav a {
     font-weight: 500;
     letter-spacing: 0.5px;
 }
+
+header nav a.active {
+    color: var(--colore-primario) !important;
+    font-weight: 700;
+    border-bottom: 2px solid var(--colore-primario);
+}
 /* #endregion navbar */
 
 
